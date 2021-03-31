@@ -44,3 +44,5 @@ Route::get('/contact', function () {
 Route::get('/offers', function () {
     return view('pages/offers');
 });
+
+
