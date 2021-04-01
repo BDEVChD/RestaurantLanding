@@ -26,11 +26,6 @@ Route::get('/waitlist', function () {
 });
 
 
-Route::get('/giftcards', function () {
-    return view('pages/giftcards');
-});
-
-
 Route::get('/about', function () {
     return view('pages/about');
 });

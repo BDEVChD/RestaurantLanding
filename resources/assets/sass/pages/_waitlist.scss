@@ -1,0 +1,60 @@
+#waitlist-page {
+    padding: 100px; 
+    h1{
+        font-size: 3rem; 
+        font-weight: 700; 
+        color: black; 
+        font-family: Nunito;
+        margin-bottom: 2.5rem; 
+    }
+    p {
+        font-size: 1rem; 
+        line-height: 2;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 2rem;
+        text-indent: 50px; 
+    }
+    form {
+       .form-group {
+           label {
+               font-weight: 700;
+               margin-bottom: 10px;
+           }
+        .form-control{
+            padding: 10px !important; 
+            height: auto; 
+        }
+        button[type="submit"] {
+            background: #9c1b24; 
+            padding: 20px 40px; 
+            border: none; 
+        }
+       }
+         
+        
+        
+    }
+  
+   
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) { 
+   #waitlist-page {
+       padding: 20px; 
+   };
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991px) {
+    #waitlist-page {
+        padding: 20px; 
+    };
+    
+    }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199px) { }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {  }
