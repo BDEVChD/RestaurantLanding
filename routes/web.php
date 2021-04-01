@@ -20,6 +20,20 @@ Route::get('/admin', function () {
 });
 
 
+Route::get('/admin/food-categories', function () {
+    return view('admin/food-categories/all');
+});
+
+
+Route::get('/admin/register', function () {
+    return view('admin/register');
+});
+
+Route::get('/admin/login', function () {
+    return view('admin/login');
+});
+
+
 
 Route::get('/menu', function () {
     return view('menu/index');
