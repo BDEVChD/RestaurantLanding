@@ -40,6 +40,11 @@ Route::get('/admin/food-items', 'admin\FoodItemsController@index');
 Route::get('/admin/food-items/{id}/edit', 'admin\FoodItemsController@edit');
 Route::get('/admin/food-items/create', 'admin\FoodItemsController@create');
 
+//Admin Users
+Route::get('/admin/users', 'admin\UsersController@index');
+Route::get('/admin/users/{id}/edit', 'admin\UsersController@edit');
+Route::get('/admin/users/create', 'admin\UsersController@create');
+
 
 
 
