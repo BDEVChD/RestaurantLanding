@@ -1,5 +1,6 @@
 
   .welcome-jumbo{
+    transform: translate3d(350px, 0, 0); 
     max-width: calc(100vw - 350px);
     display: flex;
     justify-content: center;
@@ -47,7 +48,11 @@ background: radial-gradient(ellipse at center, #ed4852 0%,#9c1b24 100%); /* W3C,
   }
 
 
-  @media (min-width: 576px) { }
+  @media (min-width: 576px) { 
+    .side-menu {
+     
+    }
+  }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {  }
