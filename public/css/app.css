@@ -332,6 +332,99 @@ table {
   }
 }
 
+#menu-page {
+  padding: 100px;
+}
+
+#menu-page #food-preview {
+  background: transparent;
+}
+
+#menu-page .button-rounded {
+  background: black;
+}
+
+#menu-page h2 {
+  color: white;
+}
+
+#menu-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  font-family: Nunito;
+  margin-bottom: 2.5rem;
+}
+
+#menu-page p {
+  font-size: 1rem;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  text-indent: 50px;
+}
+
+#menu-page .content-box {
+  background: white;
+  padding: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #menu-page {
+    padding: 20px;
+  }
+}
+
+#single-menu-page {
+  padding: 100px;
+}
+
+#single-menu-page h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ed4852;
+  margin-bottom: 10px;
+}
+
+#single-menu-page .item {
+  margin-bottom: 2rem;
+}
+
+#single-menu-page .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#single-menu-page .title h4,
+#single-menu-page .title .price {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 900;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+
 body {
   line-height: 1;
 }
@@ -594,9 +687,10 @@ body {
   background: #ed4852;
   color: white;
   display: inline-block;
-  padding: 15px;
+  padding: 25px;
   border-radius: 30px;
   margin-bottom: 130px;
+  font-size: 1.2rem;
 }
 
 #food-preview .container {
@@ -778,7 +872,6 @@ h2 {
 
   #food-preview {
     width: 100%;
-    overflow: hidden;
     padding: 20px;
   }
 

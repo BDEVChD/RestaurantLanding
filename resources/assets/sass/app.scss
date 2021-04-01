@@ -7,6 +7,7 @@
 @import "pages/waitlist";
 @import "pages/offers";
 @import "menu/index";
+@import "menu/single-menu";
 
 
 body {
@@ -218,9 +219,10 @@ background: radial-gradient(ellipse at center, #ed4852 0%,#9c1b24 100%); /* W3C,
     background: #ed4852;
     color: white;
     display: inline-block;
-    padding: 15px;
+    padding: 25px;
     border-radius: 30px;
     margin-bottom: 130px;
+    font-size: 1.2rem;
     //  width: 100px;
   }
   .container{
@@ -374,10 +376,11 @@ h2{
   }
  #food-preview {
    width: 100%; 
-   overflow: hidden; 
+  //  overflow: hidden; 
    padding: 20px; 
    .button-rounded {
      margin-bottom: 2rem;
+   
    }
    .container {
      .left-btn {

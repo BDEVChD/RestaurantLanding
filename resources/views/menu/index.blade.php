@@ -1,22 +1,117 @@
 @extends('layouts/app')
 
 @section('content')
-    <div id="about-page">
-      <div class="content-box">
-         <div class="row">
-          <div class="col-md-6">
-              <h1>About Page</h1>
-              <p>
-                Dreamcatcher tumeric asymmetrical cornhole yuccie freegan. Asymmetrical normcore try-hard, vexillologist blog actually listicle thundercats venmo yuccie adaptogen. Four dollar toast tbh chartreuse vice, plaid neutra VHS umami street art offal vexillologist adaptogen mustache lumbersexual. Poutine chia keytar letterpress chambray selfies taiyaki ugh cloud bread activated charcoal. artisan palo santo vice hot chicken slow-carb. Tacos post-ironic mixtape literally, actually listicle gluten-free neutra quinoa drinking vinegar pinterest vape cray.</p>
-               <p>    Dreamcatcher tumeric asymmetrical cornhole yuccie freegan. normcore try-hard, vexillologist blog actually listicle thundercats venmo yuccie adaptogen. Four dollar toast tbh chartreuse vice, plaid neutra VHS umami street art offal vexillologist adaptogen mustache. Poutine chia keytar letterpress chambray selfies taiyaki ugh cloud bread activated charcoal. Unicorn gentrify artisan palo santo vice hot chicken slow-carb. Tacos post-ironic mixtape literally, actually listicle gluten-free neutra quinoa drinking vinegar pinterest vape cray.</p>
-          </div>
-          <div class="col-md-6">
-           <img src="/img/about-page-image.jpeg" class="img-fluid">
-          </div>
-        </div>
-       
+    <div id="menu-page">
+        <section id="food-preview">
+    <h2>We have everything you need to kill your hunger</h2>
+    <div class="button-rounded">View Our Menu</div>
+    <div class="container">
+      <div class="left-btn">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
       </div>
-  </div>
+      <div class="right-btn">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+      <div class="food-slider">
+        <div class="sliding-system">
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Starters
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+              
+              </p>
+              <div class="food-image">
+                <img src="/img/CHIPS.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Burgers
+              </div>
+             
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+               
+              </p>
+               <div class="food-image">
+                <img src="/img/hamburger-and-fries-png-4.png">
+              </div>
+             
+            </div>
+             
+            
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Entrees
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+              
+              </p>
+              <div class="food-image">
+                <img src="/img/342-3422633_pork-entrees-steak-pork-png.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Sides
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+               
+              </p>
+              <div class="food-image">
+                <img src="/img/CHIPS.png">
+              </div>
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Desserts
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+               
+              </p>
+              <div class="food-image">
+                <img
+                  src="/img/cupcake.jpeg">
+              </div>
+            </div>
+        
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+    </div>
       
     
     
