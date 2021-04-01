@@ -11,57 +11,36 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'StaticPagesController@home');
 
-Route::get('/admin', function () {
-    return view('admin/dashboard');
-});
+Route::get('/admin', 'admin\AdminController@dashboard');
 
+//Admin Food Categories
+Route::get('/admin/food-categories', 'admin\FoodCategoriesController@index');
+Route::get('/admin/food-categories/{id}/edit', 'admin\FoodCategoriesController@edit');
+Route::get('/admin/food-categories/create', 'admin\FoodCategoriesController@create');
 
-Route::get('/admin/food-categories', function () {
-    return view('admin/food-categories/all');
-});
-
-
+//Authentication
 Route::get('/admin/register', function () {
     return view('admin/register');
 });
-
 Route::get('/admin/login', function () {
     return view('admin/login');
 });
 
 
-
-Route::get('/menu', function () {
-    return view('menu/index');
-});
-
-
-Route::get('/waitlist', function () {
-    return view('pages/waitlist');
-});
+//Food Items
+Route::get('/admin/food-items', 'admin\FoodItemsController@index');
+Route::get('/admin/food-items/{id}/edit', 'admin\FoodItemsController@edit');
+Route::get('/admin/food-items/create', 'admin\FoodItemsController@create');
 
 
-Route::get('/about', function () {
-    return view('pages/about');
-});
 
 
-Route::get('/menu/{slug}', function () {
-    return view('menu/single-menu');
-});
-
-
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
-
-
-Route::get('/offers', function () {
-    return view('pages/offers');
-});
-
-
+//Static Pages
+Route::get('/menu', 'StaticPagesController@menu');
+Route::get('/menu/{slug}', 'StaticPagesController@singleMenu');
+Route::get('/contact', 'StaticPagesController@contact');
+Route::get('/offers', 'StaticPagesController@offers');
+Route::get('/waitlist', 'StaticPagesController@waitlist'); 
+Route::get('/about', 'StaticPagesController@about'); 
