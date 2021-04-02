@@ -16,7 +16,7 @@ class StaticPagesController extends Controller
         return view('pages/reservations');
     }
     public function Contact(){
-        return view('pages/Contact');
+        return view('pages/contact');
     }
     public function Offers(){
         return view('pages/offers');
